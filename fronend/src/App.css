@@ -1,0 +1,184 @@
+body {
+  font-family: 'Dosis', sans-serif;
+  background-color: black;
+}
+header {
+  background: rgb(162, 5, 10);
+  background: linear-gradient(90deg, rgba(162, 5, 10, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  padding: 16px 0;
+  text-align: center;
+}
+
+header p {
+  color: rgb(166, 0, 0);
+  font-size: 40px;
+  font-weight: 100;
+  font-style: italic;
+  position: center;
+  bottom: 35px;
+  margin-left: 40%;
+}
+.holder{
+  background-color: rgb(166, 0, 0);
+}
+
+main p,
+main h1,
+main h3,
+main ul p {
+  color: aliceblue;
+}
+nav ul li a {
+  color: grey;
+  text-align: center;
+  display: block;
+  position: relative;
+  padding: 0.2em o.4em;
+}
+
+nav {
+ margin-bottom: 2em;
+  background-color: black;
+  justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+nav ul li {
+  display: inline-block;
+  border: 1px solid aliceblue;
+  border-radius: 5px;
+  background-color: aliceblue;
+  border-radius: border-box;
+  width: 24.8%;
+}
+nav ul li a:hover{
+  background-color: rgb(166, 0, 0)
+}
+.general {
+  text-align: center;
+}
+
+.tipos {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.tipo {
+  border: 1px solid aliceblue;
+  border-radius: 5px;
+  width: 20%;
+  text-align: center;
+  border-radius: border-box;
+}
+
+.tipo h4 {
+  color: aliceblue;
+}
+.turbina {
+  border: 1px solid aliceblue;
+  border-radius: 10px;
+  padding: 16px;
+  margin: 16px 0;
+  display: flex;
+  gap: 32px;
+  align-items: center;
+
+}
+.turbina img{
+  border-radius: 15px;
+  display: block;
+  max-width: 225px;
+}
+.turbina:nth-child(even){
+  flex-direction: row-reverse;
+}
+.turbina h4, .turbina p {
+  color: aliceblue;
+}
+.moto h4 {
+  color: aliceblue;
+}
+.motos {
+  display: flex;
+  justify-content: space-between;
+}
+.moto img{
+  border-radius: 30%;
+  max-width: 60%;
+
+}
+.moto {
+  border: 1px solid aliceblue;
+  border-radius: 5px;
+  width: 18%;
+  text-align: center;
+  padding: px;
+  border-radius: border-box;
+}
+.cols{
+  display: flex;
+
+}
+.columna {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 12px;
+}
+
+.columna.left{
+  border-right: 3px solid #539af5;
+}
+.columna.right{
+  float:right;
+}
+.coumna.right p {
+  font-size: 18px;
+}
+
+.columna.right ul li {
+  font-size: 12.8px;
+  color: aliceblue;
+}
+
+.formulario label {
+  vertical-align: top;
+  width: 20%;
+  display: inline-block;
+}
+
+.formulario input,
+.formulario textarea {
+  background-color: lightgrey;
+  border-radius: 5px;
+  border: 1px solid darkblue;
+  padding: 6.4px 9.8px;
+  font-size: 12.8px;
+  width: 70%;
+}
+
+.formulario input[type="submit"] {
+  background-color: lightblue;
+  box-shadow: 0 0 16px lightskyblue;
+  color: white;
+  font-size: 16px;
+  width: auto;
+  cursor: pointer;
+}
+
+.formulario textarea {
+  height: 160px;
+  resize: none;
+}
+
+.formulario .acciones {
+  text-align: center;
+}
+footer{
+  background: rgb(162, 5, 10);
+  background: linear-gradient(90deg, rgba(162, 5, 10, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
